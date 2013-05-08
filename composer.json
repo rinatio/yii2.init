@@ -1,18 +1,4 @@
 {
-    "repositories" : [
-        {
-            "type": "package",
-            "package": {
-                "name": "yiisoft/yii2",
-                "version": "master",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/yiisoft/yii2.git",
-                    "reference" : "master"
-                }
-            }
-        }
-    ],
     "require": {
         "yiisoft/yii2": "dev-master"
     },
