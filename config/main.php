@@ -2,7 +2,8 @@
 
 return array(
     'id' => 'My Site',
-    'basePath' => '../src/',
+    'basePath' => '../app/',
+    'controllerNamespace' => "\\app\\controllers",
     'defaultRoute' => 'site',
     'components' => array(
         'urlManager' => array(
