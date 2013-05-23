@@ -4,7 +4,6 @@
     },
     "autoload": {
         "psr-0": {
-            "yii\\": "vendor/yiisoft/yii2",
             "app\\": ""
         },
         "classmap": ["vendor/yiisoft/yii2/yii/Yii.php"]
