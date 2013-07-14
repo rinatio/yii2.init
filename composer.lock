@@ -11,24 +11,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "4d594605afe971b0317594b1b32fab43d86bd540"
+                "reference": "c9d04140b89d32fd5fbf01b1225256de90548ef8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/4d594605afe971b0317594b1b32fab43d86bd540",
-                "reference": "4d594605afe971b0317594b1b32fab43d86bd540",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/c9d04140b89d32fd5fbf01b1225256de90548ef8",
+                "reference": "c9d04140b89d32fd5fbf01b1225256de90548ef8",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
                 "lib-pcre": "*",
-                "php": ">=5.3.11"
+                "php": ">=5.3.7"
             },
             "suggest": {
-                "ezyang/htmlpurifier": "Required for Purifier helper.",
-                "michelf/php-markdown": "Required for Markdown helper.",
-                "smarty/smarty": "Required for SmartyViewRenderer.",
-                "twig/twig": "Required for TwigViewRenderer."
+                "ezyang/htmlpurifier": "Required by HtmlPurifier.",
+                "michelf/php-markdown": "Required by Markdown.",
+                "smarty/smarty": "Required by SmartyViewRenderer.",
+                "twig/twig": "Required by TwigViewRenderer."
             },
             "type": "library",
             "autoload": {
@@ -97,7 +97,7 @@
                 "framework",
                 "yii"
             ],
-            "time": "2013-05-22 22:20:56"
+            "time": "2013-07-13 20:07:41"
         }
     ],
     "packages-dev": [
